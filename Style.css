@@ -1,0 +1,219 @@
+.menu {
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+}
+
+.menu::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 5px;
+}
+
+nav a {
+    color: snow;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: darkgray;
+}
+
+body {
+    background-image: url(picture/bg.png);
+    background-size: cover;
+}
+
+.login {
+     margin-left: 37%;
+     margin-top: 10%;
+     width: 400px;
+ }
+
+
+.loginForm input[type=text],
+.loginForm input[type=password] {
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+button {
+    margin: 10px 2px;
+    padding: 5px;
+    width: 100%;
+}
+
+
+img {
+    margin-left: 20%;
+}
+
+.LoginForm {
+    padding: 10px;
+}
+
+span a {
+    margin: 35%;
+}
+
+h1 {
+    font-size: 24pt;
+    text-align: center;
+    margin-left: 5%;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    display: inline-block;
+    margin-left:20px ;
+    margin-right: 20px;
+}
+
+.orderMan {
+    margin-left: 8%;
+}
+
+.partInfo {
+    margin-left: 2%;
+}
+
+th {
+    font-size: 20px;
+    border: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#searchBar {
+    height: 20px;
+    /*float: right;*/
+
+}
+#add{
+    margin-left: 3%;
+}
+
+#AddItem {
+    float: left;
+    width: auto;
+    margin-top: 35%;
+    margin-left: 50%;
+}
+
+.search {
+    height: 25px;
+    margin-left: 70%;
+    padding: 0px;
+}
+
+#ToCart {
+    float: left;
+    width: auto;
+    margin-top: 35%;
+    margin-left: 50%;
+}
+
+@media only screen and (max-width:1200px) {
+    img {
+        margin-left: 15%;
+    }
+
+
+    h1 {
+        font-size: 16pt;
+        text-align: center;
+        margin-left: 5%;
+    }
+
+    .orderMan {
+        margin-left: 4%;
+    }
+
+    .partInfo {
+        margin-left: 1%;
+    }
+
+    th {
+        font-size: 15px;
+        border: 1px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #searchBar {
+        height: 20px;
+        float: right;
+        margin-right: 100px;
+    }
+
+
+    .search {
+        height: 25px;
+        margin-left: 60%;
+    }
+}
+
+@media only screen and (max-width:600px) {
+        img {
+        margin-left: 10%;
+    }
+
+
+    h1 {
+        font-size: 12pt;
+        text-align: center;
+        margin-left: 2%;
+    }
+
+    .orderMan {
+        margin-left: 2%;
+    }
+
+    .partInfo {
+        margin-left: 0.5%;
+    }
+
+    th {
+        font-size: 10px;
+        border: 1px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #searchBar {
+        height: 10px;
+        float: right;
+        margin-right: 100px;
+    }
+
+
+    .search {
+        height: 15px;
+        margin-left: 30%;
+    }
+}
